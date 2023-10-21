@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color */
+body {
+    background-color: #f2f2f2;
+}
+
+/* Set the header styles */
+header {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+/* Set the logo styles */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Set the navigation links styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+/* banner */
+.banner .banner-bak svg {
+    width: 100%;
+    opacity: 50%;
+}
+
+.banner .banner-text {
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 10em;
+    margin: 0 20px;
+}
+/* Set the main container styles */
+main .container .content {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.swiper .swiper-wrapper .swiper-slide img{
+    width: 300px;
+}
+
+/* Set the footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
